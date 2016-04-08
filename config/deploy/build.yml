@@ -5,7 +5,17 @@ image_resource:
   source:
     repository: ruby
     tag: '2.3.0'
-run:
-  path: uname
-  args:
-    - -a
+
+jobs:
+- name: build
+  plan:
+  - task: get repository
+    run:
+      path: git
+      args:
+      - clone https://github.com/vizjerai/testing-ci.git
+  - task: install gems
+    run:
+      path: bundle
+      args:
+      - install
