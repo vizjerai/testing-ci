@@ -6,6 +6,6 @@ image_resource:
     repository: ruby
     tag: '2.3.0'
 run:
-  path: rspec
+  path: bundle
   args:
-  - spec
+  - install
