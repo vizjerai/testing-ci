@@ -9,3 +9,7 @@ run:
   path: which
   args:
   - ruby
+run:
+  path: gem
+  args:
+  - list
