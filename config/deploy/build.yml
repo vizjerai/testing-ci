@@ -9,7 +9,7 @@ image_resource:
 run:
   path: sh
   args:
-  - exec
+  - -exec
   - |
     git clone https://github.com/vizjerai/testing-ci.git
     cd testing-ci
