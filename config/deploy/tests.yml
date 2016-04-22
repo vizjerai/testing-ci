@@ -9,6 +9,9 @@ image_resource:
 run:
   path: sh
   args:
-  - -exc
+  - -exec
   - |
-    config/deploy/tests.sh
+    git clone git@github.com:vizjerai/testing-ci.git
+    cd testing-ci
+    bundle install --no-document
+    bundle exec rspec spec
