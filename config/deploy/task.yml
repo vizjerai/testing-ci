@@ -10,5 +10,4 @@ run:
   args:
   - -exec
   - |
-    cd testing-ci
-    rspec spec
+    bundle exec rspec spec
