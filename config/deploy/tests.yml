@@ -11,7 +11,7 @@ run:
   args:
   - -exec
   - |
-    git clone git@github.com:vizjerai/testing-ci.git
-    cd testing-ci
+    git clone https://github.com/vizjerai/testing-ci.git
+    cd testing-c
     bundle install --no-document
     bundle exec rspec spec
