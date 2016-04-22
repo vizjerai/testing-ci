@@ -9,6 +9,6 @@ image_resource:
 run:
   path: sh
   args:
-  - -exec
+  - -exc
     |
     config/deploy/tests
