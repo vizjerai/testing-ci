@@ -11,6 +11,4 @@ run:
   args:
   - -exec
     |
-    git clone https://github.com/vizjerai/testing-ci.git
-    cd testing-ci
-    bundle install --no-document
+    config/deploy/tests
