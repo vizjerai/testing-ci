@@ -14,6 +14,12 @@ Rails:
 Metrics/LineLength:
   Max: 130
 
+# Offense count: 1
+# Cop supports --auto-correct.
+Style/BlockComments:
+  Exclude:
+    - 'spec/spec_helper.rb'
+
 # Offense count: 3
 Style/Documentation:
   Exclude:
