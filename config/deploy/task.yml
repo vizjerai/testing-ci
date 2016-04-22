@@ -10,4 +10,4 @@ run:
   args:
   - -exec
   - |
-    bundle exec rspec spec
+    rspec spec
