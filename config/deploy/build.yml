@@ -10,4 +10,4 @@ inputs:
 
 run:
   path: bundle
-  args: [--no-doc]
+  args: [install]
