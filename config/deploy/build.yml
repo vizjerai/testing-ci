@@ -6,8 +6,8 @@ image_resource:
     repository: ruby
     tag: '2.3.0'
 inputs:
-  - name: project-src
+- name: project-src
 
 run:
-  path: cat
-  args: [testing-ci]
+  path: bundle
+  args: [--no-doc]
