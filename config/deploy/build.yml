@@ -10,4 +10,4 @@ inputs:
 
 run:
   path: cat
-  args: [project-src/testing-ci]
+  args: [testing-ci]
