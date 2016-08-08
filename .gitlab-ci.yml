@@ -1,0 +1,9 @@
+before_script:
+  - gem install bundler
+  - touch log/test.log
+  - bundle --path=/cache/bundler
+  - RAILS_ENV=test bundle exec rake db:create
+  - RAILS_ENV=test bundle exec rake db:reset
+
+rspec:
+  script: 'bundle exec rspec'
