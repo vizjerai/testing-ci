@@ -6,4 +6,6 @@ before_script:
   - RAILS_ENV=test bundle exec rake db:reset
 
 rspec:
+  only:
+    - triggers
   script: 'bundle exec rspec'
