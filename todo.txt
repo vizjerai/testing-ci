@@ -2,7 +2,6 @@
 
 testing stuff
 another change
-quark
 no
 yes
 maybe
