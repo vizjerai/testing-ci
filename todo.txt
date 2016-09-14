@@ -5,7 +5,3 @@ another change
 no
 yes
 maybe
-no
-py
-yup
-no
