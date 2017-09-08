@@ -5,5 +5,4 @@
 -   [ ] Three
 -   [ ] Four
 -   [ ] Five
--   [ ] Six
 
